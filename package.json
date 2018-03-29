@@ -12,10 +12,18 @@
     "docker-start": "node server/server.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
     "express": "^4.16.2",
+    "fs": "0.0.1-security",
     "morgan": "^1.9.0",
+    "newrelic": "^3.2.0",
+    "node-fetch": "^2.1.1",
     "nodemon": "^1.17.1",
-    "request": "^2.83.0"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "request": "^2.85.0",
+    "save": "^2.3.2"
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
